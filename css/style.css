@@ -12,3 +12,245 @@ html {
 body {
   font-family: "raleway", sans-serif;
 }
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bloc-page {
+  margin: auto;
+  position: relative;
+}
+/* Small */
+@media (min-width: 768px) {
+  .bloc-page {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .bloc-page {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1400px) {
+  .bloc-page {
+    width: 1400px;
+  }
+}
+/* End Global Rules */
+
+/*start header*/
+header .logo-links {
+  display: flex;
+  padding-bottom: 0;
+  border-bottom: solid #f2f2f2;
+  padding-top: 20px;
+}
+header .logo {
+  width: 95px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+header .links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  margin-top: 20px;
+}
+header ul {
+  display: flex;
+}
+header li {
+  list-style-type: none;
+}
+header a {
+  text-decoration: none;
+  padding: 40px 20px;
+  position: relative;
+}
+header a:hover {
+  border-top: 3px solid var(--secand-color);
+  color: var(--secand-color);
+  padding-top: 52px;
+}
+header .inscrire {
+  color: var(--secand-color);
+  font-size: large;
+  font-weight: bold;
+}
+header h1 {
+  font-size: large;
+  font-weight: bold;
+}
+header h2 {
+  font-size: medium;
+  font-weight: 400;
+}
+
+header .icon {
+  background-color: var(--main-color);
+  width: 30px;
+  padding: 7px;
+  border: solid var(--main-color) 1px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin-right: 0;
+  cursor: pointer;
+}
+header .search {
+  font-family: "raleway", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #fff;
+  border: solid var(--main-color) 1px;
+  padding: 7px;
+  margin: -4px;
+}
+header .submit {
+  font-family: "raleway", sans-serif;
+  font-size: medium;
+  color: #fff;
+  background-color: var(--secand-color);
+  border: solid var(--main-color) 1px;
+  padding: 7px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-left: 0;
+  cursor: pointer;
+}
+header h3 {
+  width: 60px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 6px;
+  margin-right: 10px;
+}
+header .filtre {
+  display: inline-block;
+}
+header button {
+  font-family: "raleway", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  background: #ffff;
+  border: solid #d9d9d9 2px;
+  border-radius: 20px;
+  padding: 5px 5px 7px 40px;
+  margin-top: 10px;
+  margin-right: 60px;
+  position: relative;
+  cursor: pointer;
+}
+header button:hover {
+  background-color: var(--main-color);
+}
+
+header #wave,
+#child,
+#heart,
+#dog {
+  color: var(--secand-color);
+  background-color: #deebff;
+  margin: 0px;
+  border-radius: 50%;
+  position: absolute;
+  padding: 10px;
+  left: -2px;
+  bottom: -2px;
+}
+header .info {
+  margin-top: 10px;
+  cursor: pointer;
+}
+#icon-info {
+  background-color: #fff;
+  color: var(--secand-color);
+  padding: 2px 6px;
+  border: solid var(--main-color) 3px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+header .fa-search {
+  padding: 8px;
+  color: #fff;
+  border: solid var(--secand-color);
+  background-color: var(--secand-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*responsive header*/
+
+@media (max-width: 500px) {
+  header a:hover {
+    border-top: none;
+    border-bottom: 3px solid var(--secand-color);
+    padding-top: 0;
+  }
+  header .titre {
+    margin-top: 20px;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  header .container {
+    position: relative;
+  }
+  header .inscrire {
+    padding-bottom: 0;
+  }
+  header .activites {
+    position: absolute;
+    padding: 0;
+    margin-top: 40px;
+    padding-bottom: 36px;
+    top: 56px;
+  }
+  header a.heber {
+    position: absolute;
+    left: 10px;
+    padding: 0;
+    margin-top: 20px;
+    padding-bottom: 36px;
+  }
+}
+@media (min-width: 450px) {
+  header .logo-links {
+    border-bottom: none;
+  }
+  header .fa-search {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  header .submit {
+    display: none;
+  }
+  header div .input {
+    position: relative;
+    width: 285px;
+  }
+  header .fa-search {
+    position: absolute;
+    left: 72%;
+    bottom: -4px;
+  }
+}
+@media (max-width: 992px) {
+  header .container {
+    height: auto;
+  }
+  header .logo-links {
+    padding-bottom: 60px;
+  }
+}
+/*end header*/
