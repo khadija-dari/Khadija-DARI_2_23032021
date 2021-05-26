@@ -4,7 +4,6 @@
   --secand-color: #0065fc;
 }
 /*end variables*/
-
 /* Start Global Rules */
 html {
   scroll-behavior: smooth;
@@ -41,7 +40,6 @@ body {
   }
 }
 /* End Global Rules */
-
 /*start header*/
 header .logo-links {
   display: flex;
@@ -54,7 +52,6 @@ header .logo {
   height: 40px;
   margin-top: 20px;
 }
-
 header .links {
   flex: 1;
   display: flex;
@@ -92,7 +89,6 @@ header h2 {
   font-size: medium;
   font-weight: 400;
 }
-
 header .icon {
   background-color: var(--main-color);
   width: 30px;
@@ -150,7 +146,6 @@ header button {
 header button:hover {
   background-color: var(--main-color);
 }
-
 header #wave,
 #child,
 #heart,
@@ -176,7 +171,6 @@ header .info {
   border-radius: 50%;
   margin-right: 10px;
 }
-
 header .fa-search {
   padding: 8px;
   color: #fff;
@@ -185,9 +179,7 @@ header .fa-search {
   border-radius: 10px;
   cursor: pointer;
 }
-
 /*responsive header*/
-
 @media (max-width: 500px) {
   header a:hover {
     border-top: none;
@@ -230,7 +222,6 @@ header .fa-search {
     display: none;
   }
 }
-
 @media (max-width: 450px) {
   header .submit {
     display: none;
