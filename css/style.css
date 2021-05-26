@@ -245,3 +245,66 @@ header .fa-search {
   }
 }
 /*end header*/
+/*start section one */
+body .one {
+  display: flex;
+}
+body .one .hebergement {
+  flex-basis: 810px;
+  height: 630px;
+  display: flex;
+  background-color: var(--main-color);
+  border: solid var(--main-color);
+  border-radius: 20px;
+  margin-top: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body .one .hebergement .imag-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .one h2 {
+  font-family: "raleway", sans-serif;
+  padding-left: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+section .imag-container .box {
+  padding: 3px;
+  margin: 20px;
+  height: 190px;
+  margin-bottom: 30px;
+  border: solid #fff;
+  border-radius: 10%;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 13px 20px 0 #dadada;
+}
+section .box img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+section .box h3 {
+  font-size: large;
+  font-weight: bold;
+  margin: 0;
+}
+section .box p {
+  margin: 5px;
+}
+section .box .icons {
+  color: var(--secand-color);
+}
+.one a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 20px;
+}
