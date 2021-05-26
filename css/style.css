@@ -363,3 +363,46 @@ aside .icons {
 aside .desc {
   margin-left: 25px;
 }
+/*responsive section one*/
+@media (max-width: 767px) {
+  section .imag-container .box {
+    flex-basis: 90%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  aside .populaires .desc {
+    margin-left: 12px;
+  }
+  section aside {
+    border-radius: 0;
+  }
+  body .one .hebergement {
+    flex-basis: 100%;
+    height: auto;
+    margin: 0;
+    background-color: #fff;
+    border: none;
+  }
+}
+@media (min-width: 768px) {
+  section .imag-container .box {
+    flex-basis: 40%;
+  }
+}
+@media (min-width: 991px) {
+  section .imag-container .box {
+    flex-basis: 25%;
+  }
+}
+@media (max-width: 1400px) {
+  body .one {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  aside {
+    margin-left: 0;
+    height: auto;
+  }
+}
+/*end section one */
