@@ -545,3 +545,45 @@ section .parc-logchamp {
   }
 }
 /*end section two*/
+/*start footer*/
+footer {
+  background-color: var(--main-color);
+  margin-top: 60px;
+}
+footer .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+footer .container div {
+  display: flex;
+  flex-direction: column;
+}
+footer .container .col1,
+.col2 {
+  margin-right: 300px;
+}
+footer a {
+  text-decoration: none;
+  padding: 15px;
+  padding-left: 0;
+  color: black;
+}
+footer h2 {
+  font-size: large;
+  font-weight: bold;
+}
+/*responsive footer*/
+@media (max-width: 1400px) {
+  footer .container .col1,
+  .col2 {
+    margin-right: auto;
+  }
+}
+@media (max-width: 500px) {
+  footer .container {
+    flex-direction: column;
+  }
+}
+/*end footer*/
