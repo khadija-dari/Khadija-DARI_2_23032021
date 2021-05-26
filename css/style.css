@@ -406,3 +406,115 @@ aside .desc {
   }
 }
 /*end section one */
+/*start section two*/
+body .two {
+  margin-top: 40px;
+}
+body .two h2 {
+  margin-left: 20px;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 80px;
+}
+body .two .boxes {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+body .two p {
+  margin-left: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+section .vieux-port img {
+  width: 100%;
+  height: 87%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+}
+section .vieux-port {
+  border-radius: 20px;
+  width: 300px;
+  height: 440px;
+  border: solid #fff;
+  box-shadow: 0px 10px 30px 0 #d9d9d9;
+  cursor: pointer;
+}
+section .fort-de-pomegues img {
+  width: 100%;
+  height: 180px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+}
+section .fort-de-pomegues {
+  width: 300px;
+  height: 50%;
+  border-radius: 20px;
+  border: solid #fff;
+  box-shadow: 0px 10px 30px 0 #d9d9d9;
+  cursor: pointer;
+}
+section .ile-de-frioul img {
+  width: 100%;
+  height: 100px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+}
+section .ile-de-frioul {
+  width: 300px;
+  height: 155px;
+  border: solid #fff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px 0 #d9d9d9;
+  cursor: pointer;
+}
+section .parc-nationale img {
+  width: 100%;
+  height: 87%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+}
+section .parc-nationale {
+  width: 300px;
+  height: 440px;
+  border-radius: 20px;
+  border: solid #fff;
+  box-shadow: 0px 10px 30px 0 #d9d9d9;
+  cursor: pointer;
+}
+section .notre-dame img {
+  height: 120px;
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+}
+section .notre-dame {
+  width: 300px;
+  height: 190px;
+  border-radius: 20px;
+  border: solid #fff;
+  box-shadow: 0px 10px 30px 0 #d9d9d9;
+  cursor: pointer;
+}
+section .parc-logchamp img {
+  width: 100%;
+  height: 150px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+}
+section .parc-logchamp {
+  width: 300px;
+  border-radius: 20px;
+  height: 200px;
+  border: solid #fff;
+  box-shadow: 0px 10px 30px 0 #d9d9d9;
+  cursor: pointer;
+}
